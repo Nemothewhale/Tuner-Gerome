@@ -1,0 +1,4 @@
+<Alloy>
+<Window id="recorder"></Window>
+<View class="container"></View>
+</Alloy>

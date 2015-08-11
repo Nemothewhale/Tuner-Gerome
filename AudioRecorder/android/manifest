@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: audiorecorder
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: audiorecorder
+moduleid: org.gerome.audiorecorder
+guid: 201f8f66-a147-45e5-869f-4fc597ee7789
+platform: android
+minsdk: 3.5.1.GA

@@ -1,0 +1,18 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name AudiorecorderBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "org.gerome.audiorecorder.AudiorecorderModule.h"
+#include "org.gerome.audiorecorder.ExampleProxy.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+org.gerome.audiorecorder.AudiorecorderModule, ::org::gerome::audiorecorder::AudiorecorderModule::bindProxy, ::org::gerome::audiorecorder::AudiorecorderModule::dispose
+org.gerome.audiorecorder.ExampleProxy, ::org::gerome::audiorecorder::audiorecorder::ExampleProxy::bindProxy, ::org::gerome::audiorecorder::audiorecorder::ExampleProxy::dispose
+%%
